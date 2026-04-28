@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "config_dir": "sources.d/config",
+  "source_dir": "sources.d",
+  "devices": {
+    "adxl337": "sources.d/config/adxl337.json",
+    "gysf": "sources.d/config/gysf.json"
+  },
+  "com_libs": {
+    "adc": "sources.d/com_adc.json",
+    "uart": "sources.d/com_uart.json"
+  }
+}
