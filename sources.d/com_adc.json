@@ -1,0 +1,19 @@
+{
+  "type": "com_lib",
+  "name": "adc",
+  "repo": "kanzakilab/takebe-mlt-library",
+  "files": [
+    "acceleration_lib/mrbc_esp32_adc.c",
+    "acceleration_lib/mrbc_esp32_adc.h",
+    "acceleration_lib/adc.rb"
+  ],
+  "default_version": "1.0.0",
+  "supported_versions": [
+    "1.0.0"
+  ],
+  "lib": [
+    "https://raw.githubusercontent.com/kanzakilab/takebe-mlt-library/1.0.0/acceleration_lib/mrbc_esp32_adc.c",
+    "https://raw.githubusercontent.com/kanzakilab/takebe-mlt-library/1.0.0/acceleration_lib/mrbc_esp32_adc.h",
+    "https://raw.githubusercontent.com/kanzakilab/takebe-mlt-library/1.0.0/acceleration_lib/adc.rb"
+  ]
+}

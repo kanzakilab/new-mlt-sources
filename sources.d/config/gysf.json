@@ -1,0 +1,21 @@
+{
+  "name": "gysf",
+  "repo": "kanzakilab/takebe-mlt-library",
+  "src_path": "GPS_lib/gysf.rb",
+  "type": "dev_lib",
+  "dependency": "uart",
+  "sample_repo": "kanzakilab/takebe-mlt-library",
+  "sample_path": "GPS_lib/gysf_sample.rb",
+  "supported_versions": [
+    "1.0.0"
+  ],
+  "dependency_map": {
+    "uart": {
+      "versions": {
+        "1.0.0": "1.0.0"
+      },
+      "same": false,
+      "default": "1.0.0"
+    }
+  }
+}
