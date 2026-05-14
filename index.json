@@ -4,7 +4,8 @@
   "source_dir": "sources.d",
   "devices": {
     "adxl337": "sources.d/config/adxl337.json",
-    "gysf": "sources.d/config/gysf.json"
+    "gysf": "sources.d/config/gysf.json",
+    "wifi": "sources.d/config/wifi.json"
   },
   "com_libs": {
     "adc": "sources.d/com_adc.json",

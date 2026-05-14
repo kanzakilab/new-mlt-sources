@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "name": "wifi",
+  "kind": "device",
+  "repo": "kanzakilab/takebe-mlt-library",
+  "versions": {
+    "2.0.0": {
+      "files": [
+        "wifi_lib/wifi.rb"
+      ],
+      "dependencies": {
+        "uart": ">=2.0"
+      }
+    }
+  }
+}
