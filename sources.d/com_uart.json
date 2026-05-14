@@ -1,19 +1,15 @@
 {
-  "type": "com_lib",
+  "schema_version": 2,
   "name": "uart",
+  "kind": "com_lib",
   "repo": "kanzakilab/takebe-mlt-library",
-  "files": [
-    "GPS_lib/mrbc_esp32_uart.c",
-    "GPS_lib/mrbc_esp32_uart.h",
-    "GPS_lib/uart.rb"
-  ],
-  "default_version": "1.0.0",
-  "supported_versions": [
-    "1.0.0"
-  ],
-  "lib": [
-    "https://raw.githubusercontent.com/kanzakilab/takebe-mlt-library/1.0.0/GPS_lib/mrbc_esp32_uart.c",
-    "https://raw.githubusercontent.com/kanzakilab/takebe-mlt-library/1.0.0/GPS_lib/mrbc_esp32_uart.h",
-    "https://raw.githubusercontent.com/kanzakilab/takebe-mlt-library/1.0.0/GPS_lib/uart.rb"
-  ]
+  "versions": {
+    "1.0.0": {
+      "files": [
+        "GPS_lib/mrbc_esp32_uart.c",
+        "GPS_lib/mrbc_esp32_uart.h",
+        "GPS_lib/uart.rb"
+      ]
+    }
+  }
 }

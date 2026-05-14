@@ -1,21 +1,20 @@
 {
+  "schema_version": 2,
   "name": "adxl337",
+  "kind": "device",
   "repo": "kanzakilab/takebe-mlt-library",
-  "src_path": "acceleration_lib/adxl337.rb",
-  "type": "dev_lib",
-  "dependency": "adc",
-  "sample_repo": "kanzakilab/takebe-mlt-library",
-  "sample_path": "acceleration_lib/adxl337_sample.rb",
-  "supported_versions": [
-    "1.0.0"
-  ],
-  "dependency_map": {
-    "adc": {
-      "versions": {
-        "1.0.0": "1.0.0"
+  "versions": {
+    "1.0.0": {
+      "files": [
+        "acceleration_lib/adxl337.rb"
+      ],
+      "dependencies": {
+        "adc": ">=1.0,<2.0"
       },
-      "same": false,
-      "default": "1.0.0"
+      "sample": {
+        "repo": "kanzakilab/takebe-mlt-library",
+        "path": "acceleration_lib/adxl337_sample.rb"
+      }
     }
   }
 }
