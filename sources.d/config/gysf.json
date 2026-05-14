@@ -9,7 +9,7 @@
         "GPS_lib/gysf.rb"
       ],
       "dependencies": {
-        "uart": ">=1.0,<2.0"
+        "uart": ">=2.0,<3.0"
       },
       "sample": {
         "repo": "kanzakilab/takebe-mlt-library",
